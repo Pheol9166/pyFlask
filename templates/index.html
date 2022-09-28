@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <title> {{title}} </title>
+    <body>
+        <h1> 메인 화면 </h1>
+        {% for i in range(10)%}
+            <div>jinja2 is great!!!</div>
+        {% endfor %} 
+        
+        {% if num == 1 %}
+            <h2> good </h2>
+        {% elif num == 2 %}
+            <h2> bad</h2>
+        {% else %}
+            <h2>not</h2>
+        {% endif %}
+
+    </body>
+</html>

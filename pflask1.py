@@ -1,3 +1,5 @@
+# source: https://hleecaster.com/flask-introduction/
+
 from flask import Flask
 
 # flask 사용
